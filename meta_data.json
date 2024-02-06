@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical",
+        "2": "data (things)"
+    },
+    "description": "You can perform now a series of instructions that is repeated until a terminating condition is reached.\n\n[b][url=https://bubble.io/contributor/mr-bubbles-1569515603397x325153050732696100][color=#FF3D5A]Other plugins from author[/color][/url][/b]\n[b][url=https://t.me/mrbubblescommunity][color=#FF3D5A]Customer support & Community[/color][/url][/b]",
+    "image": "//s3.amazonaws.com/appforest_uf/f1627402935272x916168730575905900/1551950342962.png",
+    "license": "open_source",
+    "name": "Looper",
+    "plugin_instructions": "♾ Client Loop\n1. Paste \"Client Loop\" element on the page.\n2. Fill out the \"Count\" and \"Delay\" properties.\n3. Now you have access to \"Step\" state, and \"Incremented\" event in the workflow tab.\n4. Enjoy using it ;)\n\n♾ Workflow Loop\n1. Paste \"Workflow Loop\" element on the page.\n2. Trigger \"Start\" on the \"Workflow Loop\" element.\n3. Add an event listener \"When Workflow Loop Run Next\" and create your workflow.\n4. Trigger \"Run Next\" as a last step in the created workflow.\n5. Enjoy using it ;)",
+    "sa_node_version": 18
+}

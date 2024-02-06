@@ -1,0 +1,65 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 2,
+        "width": 2
+    },
+    "display": "Client Loop",
+    "events": {
+        "AAG": {
+            "caption": "Incremented",
+            "doc": "Triggered when the loop perform a cycle.",
+            "name": "incremented"
+        },
+        "AAI": {
+            "caption": "Finished",
+            "doc": "Triggered when the loop finish the job.",
+            "name": "finished"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "Count",
+            "default_val": 10,
+            "doc": "How many times you want to run loop (decremental). Leave 0 \"zero\" for an infinite loop (incremental)",
+            "editor": "DynamicValue",
+            "name": "count",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAE": {
+            "caption": "Delay",
+            "default_val": 1000,
+            "doc": "Delay between steps. (Milliseconds)",
+            "editor": "DynamicValue",
+            "name": "delay",
+            "rank": 1,
+            "value": "number"
+        }
+    },
+    "icon": "ion-ios-infinite-outline",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAF": {
+            "caption": "Step",
+            "doc": "Current loop step.",
+            "initialization_code": {
+                "fn": "function(properties, context) { return properties.count }"
+            },
+            "name": "step",
+            "value": "number"
+        },
+        "AAH": {
+            "caption": "Finished",
+            "doc": "Loop finished.",
+            "initialization_code": {
+                "fn": "function(properties, context) { return false }"
+            },
+            "name": "finished",
+            "value": "boolean"
+        }
+    }
+}

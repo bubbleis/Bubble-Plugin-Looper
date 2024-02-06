@@ -1,0 +1,1 @@
+function(instance, properties) { window.mylibs.asyncLoop(instance, properties, {state: "next"}) }

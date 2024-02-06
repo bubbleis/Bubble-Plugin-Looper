@@ -1,0 +1,32 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 2,
+        "width": 2
+    },
+    "display": "Workflow Loop",
+    "events": {
+        "AAL": {
+            "caption": "Run Next",
+            "doc": "",
+            "name": "next"
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-ios-infinite-outline",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAW": {
+            "caption": "Step",
+            "doc": "Current iteration step",
+            "initialization_code": {
+                "fn": "function(properties, context) {}"
+            },
+            "name": "step",
+            "value": "number"
+        }
+    }
+}
